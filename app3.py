@@ -48,7 +48,7 @@ with st.sidebar:
     """)
     
     # 添加图片（可选）
-    st.image("https://via.placeholder.com/150", caption="财智AI Logo", use_column_width=True)
+    st.image("https://via.placeholder.com/150", caption="财智AI Logo", use_container_width=True)
     
     # 添加联系方式
     st.markdown("---")
