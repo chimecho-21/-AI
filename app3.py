@@ -216,13 +216,13 @@ st.markdown("- **论文查重**：为您提供快速准确的论文查重服务�
 
 st.markdown("---")
 st.markdown("**立即付费**")
-st.markdown("[前往付费页面](https://www.cufe-aiteam.com/pay)")
+st.markdown("[前往付费页面](https://mtcuqf2rh8tvrdkyvgyjm2.streamlit.app/)")
 st.markdown("如果您已经是付费用户，请输入您对应付费功能的凭证：")
 paid_code = st.text_input("付费凭证")
 if st.button("验证"):
     # 替换为实际的付费凭证验证逻辑
     # 警告：不要将敏感的验证逻辑直接硬编码在前端代码中
-    if paid_code == "your_paid_code":  
+    if paid_code == "13292017003":  
         st.success("验证成功！您已成功解锁付费功能。")
     else:
         st.error("验证失败，请检查您的付费凭证。")
